@@ -30,7 +30,7 @@ public class HelloController {
     @RequestMapping("/test")
     public String test(){
         Date d = new Date();
-        log.info("test");
+        log.info("test.....");
         return "test:" + dateFormator.format(d);
     }
 
