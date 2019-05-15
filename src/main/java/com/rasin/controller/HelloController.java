@@ -31,7 +31,7 @@ public class HelloController {
     public String test(){
         Date d = new Date();
         log.info("test...");
-        return "test:" + dateFormator.format(d);
+        return "test....:" + dateFormator.format(d);
     }
 
 
