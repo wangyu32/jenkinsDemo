@@ -26,4 +26,14 @@ public class HelloController {
         return dateFormator.format(d);
     }
 
+
+    @RequestMapping("/test")
+    public String test(){
+        Date d = new Date();
+        log.info("test");
+        return "test:" + dateFormator.format(d);
+    }
+
+
+
 }
